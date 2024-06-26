@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Costa Tia Paola</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="prollecto uno.css">  
+</head>
+<body>
+  <section class="inicio">
+    <br>
+    <h1>Restaurant Costa Tia Paola</h1> 
+
+    <p>Restaurante de comida marina ubicado en la ciudad de Mar Del Plata, posee menus con opciones vegetarianas, veganas y sin gluten.</p>    
+  </section>
+  <div class="menu">
+  <h1 class="menu2">Nuestro Menu</h1>
+ <div class="capsula">
+
+  <div class="tarjeta" onclick="agrandarTarjeta(this)">
+    <div class="titulo"> hamburgesas especiales</div>
+      <div>
+        <img src="hamburguesa.jpg" alt="muestra"  class="cuerpo">
+      </div>
+      <div class="pie">
+        <a href="#">todas las hamburgesas especiales tienen un precio de 2200$ </a>
+      </div>
+  </div>
+
+    <div class="tarjeta" onclick="agrandarTarjeta(this)">
+      <div class="titulo">pizzas clasicas </div>
+        <div>
+          <img src="Pizza.jpg" alt="muestra"  class="cuerpo" id="aaa" onclick="Agrandarimgen(aaa);">
+        </div>
+        <div class="pie">
+        
+          <a href="#">todas las pizzas clasicas  tienen un precio de 3100$ </a>
+    
+        </div>
+      </div>
+        <div class="tarjeta" onclick="agrandarTarjeta(this)">
+          <div class="titulo">pizzas especiales </div>
+            <div >
+              <img  src="pizza_especial.jpg" alt="muestra"  class="cuerpouno" >
+            </div>
+            <div class="pie">
+            
+              <a href="#">todas las pizzas especiales tienen un precio de 4100$ </a>
+              
+            </div>
+        </div>
+    
+        <div class="tarjeta"  onclick="agrandarTarjeta(this)">
+      <div class="titulo">hamburgesas clasicas</div>
+        <div>
+          <img src="hamburguesa_especiales.jpg" alt="muestra"  class="cuerpo">
+        </div>
+        <div class="pie">
+        
+          <a href="#">todas las hamburgesas clasicas tienen un precio de 2100$ </a>
+        </div>
+    </div>
+  </div>
+</div>
+<script src="functions.js"></script>
+</body>
+ </html>
